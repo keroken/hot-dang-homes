@@ -20,7 +20,7 @@ export const BlockRenderer = ({ blocks }) => {
         return (
           <Heading
             key={block.id}
-            textAlign={block.attributes.align}
+            textAlign={block.attributes.textAlign}
             content={block.attributes.content}
             level={block.attributes.level}
           />
