@@ -7,7 +7,6 @@ export default function Page(props) {
   console.log("PAGE PROPS",props);
   return (
     <div>
-      <h1>{props.title}</h1>
       <BlockRenderer blocks={props.blocks} />
     </div>
   );
